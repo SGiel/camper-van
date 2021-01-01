@@ -20,6 +20,8 @@ header {
     width: 100%;
     background-color: var(--tertiary-color);
     padding: 10px 0 10px 0;
+    position: sticky;
+    top: 0;
 }
 
 .header-container {
@@ -28,6 +30,7 @@ header {
     align-items: center;
     justify-content: space-between;
     grid-template-columns: 1fr 3fr 1fr;
+  
 }
 
 .header-left-side {
@@ -122,6 +125,8 @@ main {
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 main h2 {
@@ -130,7 +135,8 @@ main h2 {
     text-align: left;
     font-weight: bold;
     color:var(--secondary-color);
-    padding: 20px 0 0 5px;
+    padding: 10px 0 0 5px;
+    font-family: "Gill Sans", sans-serif;
 }
 
 /* styling main container that is navigated to by navigation bar */
@@ -152,6 +158,8 @@ main h2 {
     border-left: 2px solid var(--tertiary-color);
 }
 
+
+
 .col-text {
     text-align: left;
 }
@@ -162,6 +170,10 @@ main h2 {
     flex-grow: 1; 
     flex: 1;
     padding-left: 20px;
+}
+
+.container-larger .col-text, .container-larger .col-image {
+    height: 70vh;
 }
 
 .col-image {
@@ -191,6 +203,7 @@ p a {
     gap: 2vh;
     width: 40%;
     height: 60vh;
+    padding-left: 20px;
 }
 
 .gallery-img {
@@ -220,6 +233,14 @@ p a {
     text-align: left;
     justify-self: flex-start;
     vertical-align: bottom; 
+}
+
+footer {
+    height: 30px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: var(--third-color);
+    font-family: "Gill Sans", sans-serif;
 }
 
 
