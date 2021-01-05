@@ -9,7 +9,10 @@
   }
 
 body {
-    background-color: var(--third-color);
+    background-image: url("../images/furkanvari-SGtbc5w2uzQ-unsplash\ faded.jpg");
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: 100%;
     font-family: "Gill Sans", sans-serif;
     font-size: 20px;
 }
@@ -137,6 +140,10 @@ main h2 {
     color:var(--secondary-color);
     padding: 10px 0 0 5px;
     font-family: "Gill Sans", sans-serif;
+}
+
+main a {
+    color:var(--secondary-color);
 }
 
 /* styling main container that is navigated to by navigation bar */
