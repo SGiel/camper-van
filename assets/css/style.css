@@ -157,6 +157,7 @@ main h2 {
 main a {
     color:var(--secondary-color);
     font-weight: bold;
+    text-decoration: underline;
 }
 
 main a:hover {
