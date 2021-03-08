@@ -156,6 +156,12 @@ main h2 {
 
 main a {
     color:var(--secondary-color);
+    font-weight: bold;
+}
+
+main a:hover {
+    background-color: var(--secondary-color);
+    color: var(--third-color);
 }
 
 /* styling main container that is navigated to by navigation bar */
