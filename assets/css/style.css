@@ -11,7 +11,7 @@
 body {
     /* font-family: "Patrick Hand", "Gill Sans", sans-serif; */
     font-family: "Montserrat", "Gill Sans", sans-serif; 
-    font-size: 20px;
+    font-size: 14px;
 }
 
 /* styling header section */
@@ -144,7 +144,7 @@ main {
     /* font-family: "Patrick Hand", "Arial", Helvetica, sans-serif; */
     font-family: "Montserrat", "Arial", Helvetica, sans-serif;
 
-    font-size: 18px;
+    font-size: 14px;
 }
 
 main h2 {
